@@ -1,0 +1,690 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Poppins;
+    background: rgb(14, 14, 14);
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* Navigation */
+.nav-container {
+    background: #FFFFFF;
+    padding: 16px 0;
+}
+
+.navlogo {
+    margin: auto 0;
+    height: 44px;
+}
+
+/* Header */
+.header-container {
+    padding: 60px 0 0 0;
+    display: flex;
+}
+
+.header-text-container {
+    max-width: 500px;
+    width: 100%;
+}
+
+.header-img {
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.header-text-container {
+    margin-bottom: 60px;
+}
+
+/* Brands division */
+.Brands-container {
+    background-color: #fff;
+    flex: 1;
+}
+
+.details-container {
+    background-color: #0069EC;
+    flex: 1;
+}
+
+.content-container {
+    width: 100%;
+    max-width: 510px;
+}
+
+
+.Brands-logo {
+    padding-right: 20px;
+    border-right: 2px Solid #D9D9D9;
+    margin-right: 20px;
+    height: 64px;
+}
+
+.details-box {
+    max-width: 510px;
+    width: 100%;
+}
+
+.details-middle {
+    padding: 0 20px;
+    margin: 0 20px;
+    border: 3px solid;
+    border-image: linear-gradient(to bottom, rgba(161, 213, 255, 0) 0%, #A1D5FF 46.67%, rgba(161, 213, 255, 0) 100%);
+    border-image-slice: 1;
+}
+
+/* Why Zoho division */
+
+.whygrid {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+}
+
+.whyimg {
+    height: 44px;
+}
+
+.hands {
+    width: 480px;
+}
+
+.why-text-cont {
+    max-width: 500px;
+}
+
+.handsimg {
+    width: 80%;
+}
+
+/* About */
+.about-div {
+    background-image: url('about-background.png');
+}
+
+.glass-morph {
+    background: rgba(16, 16, 16, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(17.5px);
+    -webkit-backdrop-filter: blur(17.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.about-logo {
+    max-height: 100px;
+}
+
+/* Offerings */
+.offerings-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.offerings-grid {
+    display: grid;
+    column-gap: 30px;
+    row-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.offerings-img-cont {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    border-radius: 100%;
+    align-self: start;
+    margin-right: 20px;
+}
+
+.offerings-img {
+    width: 48px;
+    height: 48px;
+}
+
+/* CRM */
+.CRM-details-container {
+    flex: 1.5;
+    background: #0069EC;
+    border-radius: 0 20px 20px 0;
+    z-index: 1;
+}
+
+.CRM-content-container {
+    width: 100%;
+    max-width: 420px;
+}
+
+.CRM-Icon-container {
+    flex: 2;
+}
+
+.CRM-grid {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.CRM-details-box {
+    max-width: 620px;
+}
+
+.glass-morph2 {
+    background: rgba(16, 16, 16, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(17.5px);
+    -webkit-backdrop-filter: blur(17.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin: 0 0 0 -20px;
+}
+
+/* Slider */
+.slide {
+    background: #0069EC;
+    padding: 40px;
+    height: 220px;
+    min-width: 550px;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin: 40px 20px 40px 0;
+}
+
+.overflow-scroll {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* footer */
+
+.footer-container {
+    padding: 60px 0;
+}
+
+.robotImg {
+    max-width: 480px;
+    height: auto;
+}
+
+
+
+/* Common */
+.flex {
+    display: flex;
+}
+
+.flex-2 {
+    display: flex;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.acenter {
+    align-items: center;
+}
+
+.spacebetween {
+    justify-content: space-between;
+}
+
+.justifyend {
+    justify-content: flex-start;
+}
+
+.allignend {
+    align-items: flex-end;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.allign-left {
+    align-items: flex-start;
+}
+
+.allign-right {
+    align-items: flex-end;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    padding: 0px 40px;
+    overflow: hidden;
+}
+
+.bluebutton {
+    background: #0069EC;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.blueheadingbig {
+    font-size: 50px;
+    font-weight: 600;
+    color: #A1D5FF;
+    line-height: 58px;
+}
+
+.blueheadingbigger {
+    font-size: 80px;
+    font-weight: 600;
+    color: #A1D5FF;
+    line-height: 58px;
+}
+
+.whiteheadingbig {
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.whiteheadingnormal {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.whiteparah {
+    color: #fff;
+}
+
+.normal {
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.small {
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.ml40 {
+    margin-left: 40px;
+}
+
+.ml60 {
+    margin-left: 60px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mb60 {
+    margin-bottom: 60px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.mr40 {
+    margin-right: 40px;
+}
+
+
+.pr40 {
+    margin-right: 40px;
+}
+
+.p40v {
+    padding: 40px 0;
+}
+
+.p60 {
+    padding: 60px;
+}
+
+.p60v {
+    padding: 60px 0;
+}
+
+.subheadingwhite {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 991px) {
+    .navlogo {
+        height: 40px;
+    }
+
+    .bluebutton {
+        padding: 16px 32px;
+        font-size: 16px;
+    }
+
+    .normal {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .small {
+        font-size: 16px;
+    }
+
+    .blueheadingbig {
+        font-size: 40px;
+        font-weight: 600;
+        color: #A1D5FF;
+        line-height: 44px;
+    }
+
+    .header-container {
+        flex-direction: column;
+    }
+
+    .flex-2 {
+        flex-direction: column;
+    }
+
+
+    .flex-2 {
+        flex-direction: column;
+    }
+
+    .allignend {
+        align-items: center;
+    }
+
+    .mr20 {
+        margin-right: 10px;
+    }
+
+    .mr40 {
+        margin-right: 20px;
+    }
+
+    .ml40 {
+        margin-left: 20px;
+    }
+
+    .offerings-grid {
+        grid-template-columns: 1fr 1fr;
+        margin: 0 20px;
+        margin-bottom: 40px;
+    }
+
+    .content-container {
+        margin-right: 0px;
+    }
+
+    .justifyend {
+        justify-content: center;
+    }
+
+    .details-container {
+        padding: 40px 0;
+    }
+
+    .details-box {
+        margin-left: 0;
+
+    }
+
+
+    .Brands {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .center991 {
+        text-align: center;
+    }
+
+    .margin-t-991 {
+        margin-top: 40px;
+    }
+
+    .robotImg {
+        max-width: 350px;
+    }
+
+    .CRM-details-container {
+        border-radius: 0;
+    }
+
+    .allign-right {
+        align-items: center;
+    }
+
+    .CRM-grid {
+        margin: 40px 0;
+    }
+
+    .CRM-content-container {
+        margin: 0;
+    }
+
+    .CRM-details {
+        margin: 0;
+    }
+
+    .padding-0-991 {
+        padding: 0;
+    }
+
+    .offerings-grid {
+        column-gap: 10px;
+    }
+
+    .subheadingwhite {
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .column-767px {
+        flex-direction: column;
+    }
+
+    .mr40 {
+        margin-right: 0;
+    }
+
+    .ml40 {
+        margin-left: 0;
+    }
+
+    .robotImg {
+        margin-top: 40px;
+    }
+
+    .navlogo {
+        height: 40px;
+    }
+
+    .bluebutton {
+        padding: 16px 32px;
+        font-size: 14px;
+
+    }
+
+    .header-text-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .normal {
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+
+    }
+
+    .small {
+        font-size: 14px;
+        text-align: center;
+
+    }
+
+    .blueheadingbig {
+        font-size: 34px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .header-text-container {
+        margin-bottom: 40px;
+    }
+
+    .blueheadingbigger {
+        font-size: 50px;
+    }
+
+    .why-text-cont {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .center-767 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .offerings-img-cont {
+        margin: 0 auto;
+    }
+
+    .offerings-grid {
+        column-gap: 40px;
+    }
+
+    .whiteparah {
+        text-align: center;
+    }
+
+    .whiteheadingnormal {
+        text-align: center;
+    }
+
+    .slide {
+        min-width: 400px;
+    }
+
+    .subheadingwhite {
+        text-align: center;
+    }
+
+    .centermax-767 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .CRM-details-box {
+        margin: 0 auto;
+    }
+
+    .glass-morph2 {
+        margin: 0;
+    }
+
+    .offerings-grid {
+        margin: 0px 0px 40px 0px;
+    }
+
+    .CRM-grid {
+        margin: 40px 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header-container {
+        padding: 20px;
+    }
+
+    .navlogo {
+        height: 30px;
+    }
+
+    .bluebutton {
+        padding: 16px 32px;
+        font-size: 14px;
+    }
+
+    .normal {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .small {
+        font-size: 14px;
+    }
+
+    .blueheadingbig {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .slide {
+        padding: 20px;
+    }
+
+    .Brands-container {
+        padding: 0 20px;
+    }
+
+    .Brands-logo {
+        padding-right: 14px;
+        border-right: 2px Solid #D9D9D9;
+        margin-right: 14px;
+        height: 40px;
+    }
+
+    .offerings-grid {
+        column-gap: 10px;
+    }
+}
