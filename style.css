@@ -610,7 +610,9 @@ body {
     }
 
     .slide {
-        min-width: 400px;
+        min-width: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .subheadingwhite {
@@ -638,6 +640,25 @@ body {
 
     .CRM-grid {
         margin: 40px 20px;
+    }
+
+    .slider{
+        flex-direction: column;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    .slide{
+        margin-right: 0;
+    }
+
+    .whiteheadingnormal{
+        width: 100%;
+    }
+
+    .overflow-scroll {
+        overflow-x: hidden;
+        overflow-y: scroll;
     }
 }
 
@@ -672,6 +693,7 @@ body {
     .slide {
         padding: 20px;
     }
+    
 
     .Brands-container {
         padding: 0 20px;
