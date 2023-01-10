@@ -27,11 +27,13 @@ body {
 .header-container {
     padding: 60px 0 0 0;
     display: flex;
+    margin-bottom: 60px;
 }
 
 .header-text-container {
     max-width: 500px;
     width: 100%;
+    flex: 1;
 }
 
 .header-img {
@@ -40,8 +42,40 @@ body {
     margin-bottom: -10px;
 }
 
-.header-text-container {
-    margin-bottom: 60px;
+
+
+.form-container {
+    background-image: url('Form\ back.png');
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.header-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-glass-morph {
+    background: rgba(16, 16, 16, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(17.5px);
+    -webkit-backdrop-filter: blur(17.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 40px;
+    width: 100%;
+}
+
+.header-input {
+    background: rgba(38, 41, 43, 0.36);
+    border: 2px solid rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    padding: 20px;
 }
 
 /* Brands division */
@@ -229,6 +263,23 @@ body {
 
 
 /* Common */
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+}
+
 .flex {
     display: flex;
 }
@@ -251,7 +302,7 @@ body {
 }
 
 .justifyend {
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 
 .allignend {
@@ -456,7 +507,7 @@ body {
         margin-right: 0px;
     }
 
-    .justifyend {
+    .justifycenter {
         justify-content: center;
     }
 
@@ -519,6 +570,13 @@ body {
         font-size: 24px;
     }
 
+    .form-container {
+        margin-top: 40px;
+    }
+
+    .CRM-Icon-container {
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -649,6 +707,12 @@ body {
         width: 100%;
     }
 
+    .slide {
+        padding: 20px;
+        min-width: 240px;
+        height: auto;
+    }
+
 
 }
 
@@ -679,13 +743,6 @@ body {
         font-size: 34px;
         line-height: 40px;
     }
-
-    .slide {
-        padding: 20px;
-        min-width: 240px;
-        height: auto;
-    }
-
 
     .Brands-container {
         padding: 0 20px;
