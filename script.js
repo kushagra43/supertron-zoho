@@ -5,13 +5,15 @@ document.querySelector("#myForm").addEventListener("submit", function (e) {
   let formData = new FormData(this);
 
   // Send post request to the server
-  fetch("https://forms.hubspot.com/uploads/form/v2/23736002/688d8b8a-37c8-4bf1-bd94-9e2e31d4c0d8", {
-    method: "POST",
-    body: formData,
-  })
-    .then((response) => response.json())
-    .then((data) => {
-      if (data.status === "success") {
+  fetch(
+    "https://forms.hubspot.com/uploads/form/v2/23736002/688d8b8a-37c8-4bf1-bd94-9e2e31d4c0d8",
+    {
+      method: "POST",
+      body: formData,
+    }
+  )
+    .then((response) => {
+      if (response.status >= 200 && response.status < 300) {
         // Show success message
         document.querySelector("#thankYou").innerHTML =
           "Thank you for submitting the form!";
